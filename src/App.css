@@ -1,0 +1,538 @@
+/* navbar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    padding: 0 100px;
+}
+.header{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+.item{
+    display: flex;
+   gap: 33px;
+    text-decoration: none;
+  
+
+    
+  
+}
+.item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.logo{
+    
+   display: flex;
+   gap: 9px;
+   
+   
+
+   
+    
+}
+.logo img{
+    width: 32px;
+    height: 30px;
+    
+}
+.logoimg{
+    margin-top: 20px;
+}
+.logotxt{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+.icon{
+    display: flex;
+    gap: 16px;
+    padding-left: 20px;
+    
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.left_item{
+    display: flex;
+    align-items: center;
+}
+
+.nritem{
+    display: none;
+
+
+}
+
+/* navbar end*/
+
+
+.container_i{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: -50px;
+    height: calc(100vh - 160px);
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.details {
+    display: flex;
+    /* border: 2px solid black; */
+    width: fit-content;
+   gap: 27px;
+   margin-top: 100px ;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.up
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.up h1{
+    font-size: 48px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.up p{
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn
+{
+    
+    display: flex;
+    gap: 20px;
+}
+.btn button {
+   color: aliceblue;
+    width: 132px;
+    background-color: #0087F9;
+    height: 35px;
+    border: none;
+}
+.item_1 h4{
+    color: #2F80ED;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+.item_2 h4{
+    color: #2F80ED;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+.item_3 h4{
+    color: #2F80ED;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+.item_1 p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+.item_2 p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+.item_3 p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+.rightbox{
+     /* border: 2px solid black;  */
+    display: flex;
+    align-items: center;
+}
+.post{
+        /* border: 2px solid black;  */
+        display: flex;
+        flex-direction: column;
+
+}
+.post img{
+    width: 278px;
+    height: 330px;
+
+}
+
+.item_post h4{
+    color: #2F80ED;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+
+.item_post p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+.item_post{
+    align-self: center;
+}
+@media screen and (max-width: 1000px) {
+   .left_item{
+    display: none;
+   }
+
+   .container_i{
+    display: grid;
+    margin-left: 30px;
+    margin-right: 80px;
+    
+}
+.wrapper
+{
+margin-left: 20px;
+padding: 0%;
+margin-right: 10px;
+}
+.logo{
+    margin-left: 10px;
+}
+.nritem{
+    display: block;
+    margin-right: -40px;
+    margin-top: -26px;
+
+
+
+}
+.nritem img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.rightbox{
+    margin-right: 40px;
+}
+.logo{
+    margin-top: -35px;
+}
+.newsl{
+    margin-top: 300px;
+    
+   
+    
+}
+.newspl{
+    display: none;
+    
+  }
+
+  .newslpr{
+    display: none;
+  }
+
+  input[type=text] {
+    width: 225px;
+    margin-top: 0;
+    
+  }
+    .newsp p{
+    display: none;
+
+    }
+
+    .col-25, .col-75,.row, input[type=submit] {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        
+      }
+
+      .rfutr{
+        display: none;
+      }
+}
+
+
+  /* Newsletterr */
+
+  .col-75{
+    display: none;
+  }
+  .row{
+    display: none;
+  }
+  .newsl{
+   
+    display: flex;
+    justify-content: space-around;
+    height: 194px;
+    background-color: #eb5757cb;
+    
+  }
+  .newspl{
+    margin-top: 27px;
+    
+  }
+  .newslpm{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+  }
+  .newslpr{
+    margin-top: 5px;
+  }
+
+  .newsh{
+    padding-top: 31px;
+
+   
+
+  }
+  .newsh h4{
+     
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arboria-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+.newsp p{
+    
+    color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+}
+.newsp{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+input[type=text], select {
+    width: 425px;
+    padding: 12px 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    background-color: azure;
+    border: azure;
+  }
+  input[type=submit], select {
+    width: 125px;
+    padding: 12px 20px;
+    color: aliceblue;
+    background-color: #F2C94C;
+    border: #F2C94C;
+
+   
+    
+  }
+
+  input[value='Enter your Email'], select {
+    color: rgb(97, 97, 102);
+  }
+  input[value='Submit'], select {
+    color: rgb(0, 0, 0);
+  }
+  .futr{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    background-color: #333333;
+  }
+  .lfutr{
+    margin-top: 70px;
+    margin-left: -30px;
+  }
+  .loca{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+  }
+    
+  .locaimg{
+    /* border: 3px solid rgb(60, 255, 0); */
+    
+  }
+
+  .locatxt{
+    color: aliceblue;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 16px;
+  }
+  
+  .i,.ii,.iii,.iv{
+    color: aliceblue;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .rfutr{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+
+  }
+
+  .rfutri{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rfutrii{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rfutriii{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .flogotxt{
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+
+
+.container_ii{
+  /* border: 2px solid black;  */
+  padding: 50px;
+  }
+  .label{
+  /* border: 2px solid black; */
+  font-family: 'DM Sans';
+  margin-left: 20px;
+  font-size: 24px;
+  
+  }
+  .label span{
+      color: yellow;
+  }
+  
+  .ph_logo{
+      /* border: 2px solid black;
+      display: grid;
+      grid-template-rows: 133px 133px ;
+      grid-template-columns: 133px 133px 133px 133px 133px 133px; */
+      /* gap: 70px; */
+    
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+      
+      
+  
+  }
+  .litem1{
+     
+ 
+  
+  
+  }
+  .litem1 img{
+      width: 233px;
+      height: 233px;
+  }
+  
+  .expand{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      width: 90px;
+      height: 23px;
+      left: 705px;
+      margin-top: 240px;
+  
+  }
+  .tg {
+      color: #0087F9;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      text-decoration-line: underline;
+  }
+  .container_iii{
+      margin-top: 120px;
+  }
+  
+  .mb_logo{
+      /* border: 2px solid black; */
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+  }
+  
+  
+  .label_mb{
+      font-family: 'DM Sans';
+  font-size: 24px;
+  line-height: 28px;
+  }
+  
+  .label_mb2{
+      margin-top: 60px;
+      font-family: 'DM Sans';
+      font-size: 24px;
+      line-height: 28px;
+  }
